@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bower": "~1.2.8",
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.2",
+    "grunt-coffeelint": "0.0.8",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.8.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-csslint": "~0.2.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-sass": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-hashres": "~0.3.4",
+    "grunt-html-build": "~0.3.1",
+    "grunt-html-validation": "~0.1.13",
+    "grunt-imageoptim": "~1.4.1",
+    "grunt-myth": "~0.1.1",
+    "grunt-uncss": "~0.1.6",
+    "nodemon": "~1.0.12",
+    "node-static": "~0.7.3",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-cssmin": "~0.7.0",
+    "grunt-browser-sync": "~0.5.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-compress": "~0.6.1",
+    "grunt-html2js": "~0.2.4"
+  },
+  "name": "webcake",
+  "private": true,
+  "scripts": {
+    "start": "npm install; bower install; grunt watch",
+    "server": "nodemon app.coffee"
+  }
+}
